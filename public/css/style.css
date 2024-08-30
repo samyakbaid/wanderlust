@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-sailboat {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222 !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.f-info {
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+}
+
+.f-info-links {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-socials {
+    width: 100%;
+}
+
+.f-info-socials i {
+    margin-right: 2rem !important;
+    font-size: 1.2rem;
+}
+
+.f-info-brand {
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* Card Styles */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+
+.review-card {
+    border:#222;
+    margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+    border-radius: 1rem;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.image-links {
+    text-decoration: none;
+    color: #222222;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Button Styles */
+.add-btn, .edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Main Content Area */
+main {
+    flex: 1;
+}
+
+/* Form Styles */
+.new-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-form .form-label {
+    margin-bottom: 5px;
+}
+
+.new-form .form-control {
+    margin-bottom: 15px;
+}
+
+.new-form button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: #ffc700;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffc700;
+}
+
+
+
+
+
+
+/* Container to center the form on the page */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show-img{
+    height: 30vh;
+}

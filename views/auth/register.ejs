@@ -1,0 +1,14 @@
+<% layout('/layouts/boilerplate') %>
+<h1>Register</h1>
+<form action="/auth/register" method="POST">
+    <label for="username">Username</label>
+    <input type="text" name="username" required>
+    <label for="email">Email</label>
+    <input type="email" name="email" required>
+    <label for="password">Password</label>
+    <input type="password" name="password" required>
+    <button type="submit">Register</button>
+</form>
+
+<!-- Button to redirect to login page -->
+<p>Already have an account? <a href="/auth/login" class="btn btn-link">Login here</a></p>
